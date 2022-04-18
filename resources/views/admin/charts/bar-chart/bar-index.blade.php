@@ -60,7 +60,7 @@ text-align: center;
                 </tr>
             </thead>
             <tbody>
-                @foreach(App\BarChart::all() as $cat)
+                @foreach(App\MOdels\BarChart::all() as $cat)
                 <tr class="table-success">
 
                     <td scope="row">{{$cat->labels_1}}</td>

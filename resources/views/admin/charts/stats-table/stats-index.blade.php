@@ -60,7 +60,7 @@ text-align: center;
                 </tr>
             </thead>
             <tbody>
-                @foreach(App\QuantumStat::all() as $cat)
+                @foreach(App\Models\QuantumStat::all() as $cat)
                 <tr class="table-success">
 
                     <td scope="row">{{$cat->table_head}}</td>

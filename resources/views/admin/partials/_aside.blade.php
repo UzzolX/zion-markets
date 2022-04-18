@@ -163,7 +163,7 @@
 								</span>
 							</li>
 							<li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">
-								<a href="{{action('admin\BlogController@listblog')}}" class="menu-link menu-toggle">
+								<a href="#" class="menu-link menu-toggle">
 									<i class="menu-bullet menu-bullet-dot">
 										<span></span>
 									</i>
@@ -171,7 +171,7 @@
 								</a>
 							</li>
 							<li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">
-								<a href="{{action('admin\BlogController@create_blog')}}" class="menu-link menu-toggle">
+								<a href="#" class="menu-link menu-toggle">
 									<i class="menu-bullet menu-bullet-dot">
 										<span></span>
 									</i>
@@ -349,7 +349,7 @@
 									<i class="menu-arrow"></i>
 									<ul class="menu-subnav">
 										<li class="menu-item" aria-haspopup="true">
-											<a href="{{action('admin\FaqController@index')}}" class="menu-link">
+											<a href="#" class="menu-link">
 												<i class="menu-bullet menu-bullet-dot">
 													<span></span>
 												</i>
@@ -357,7 +357,7 @@
 											</a>
 										</li>
 										<li class="menu-item" aria-haspopup="true">
-											<a href="{{action('admin\FaqController@create')}}" class="menu-link">
+											<a href="#" class="menu-link">
 												<i class="menu-bullet menu-bullet-dot">
 													<span></span>
 												</i>

@@ -60,7 +60,7 @@ text-align: center;
                 </tr>
             </thead>
             <tbody>
-                @foreach(App\PieChart::all() as $cat)
+                @foreach(App\Models\PieChart::all() as $cat)
                 <tr class="table-success">
 
                     <td scope="row">{{$cat->labels_1}}</td>
